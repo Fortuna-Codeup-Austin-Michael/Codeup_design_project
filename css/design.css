@@ -1,7 +1,42 @@
 .container {
-    display: grid
+    background-color: lightgrey;
 }
 
-#circles {
+.circle {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+#button1 {
+    background: #E6563B;
+    color: white;
+}
+
+#button2 {
+    background: #DEA03D;
+    color: white;
+}
+
+#button3 {
+    background: #7CB06C;
+    color: white;
+}
+
+#button4 {
+    background: #00ABA9;
+    color: white;
+}
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+
 
 }
