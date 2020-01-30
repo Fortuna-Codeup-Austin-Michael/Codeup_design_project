@@ -1,12 +1,19 @@
 .container {
-    background-color: lightgrey;
+    background-color: #E6E6E6;
 }
 
 .circle {
     height: 105px;
     width: 105px;
     border-radius: 50%;
-    border: 6px solid white;
+    border: 6px solid #F0F0F0;
+}
+
+.smallcircle {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+
 }
 
 #button1 {
