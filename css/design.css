@@ -1,3 +1,4 @@
+
 .container {
     background-color: #E6E6E6;
 }
@@ -43,7 +44,23 @@
     font-family: 'Abel', sans-serif;
 }
 
-h1 {
+.list-group-item {
+    background: #E6E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
 
+.jumbotron {
+    background: #E6E6E6;
+    /*text-align: center;*/
+}
 
+#main-jumbotron {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+#visual\ design {
+    background: #E6E6E6;
 }

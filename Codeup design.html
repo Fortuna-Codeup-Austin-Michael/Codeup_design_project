@@ -16,45 +16,37 @@
 </head>
 <body>
 
+<div class="jumbotron jumbotron-fluid" id="main-jumbotron">
+    <div class="container" id="jumbotron-container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- Navbar -->
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pets</a>
+                    </li><li class="nav-item">
+                    <a class="nav-link" href="#">Volunteer</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="display-4">Codeup Design</h1>
+    <!-- End of navbar -->
         </div>
-    </nav>
-<!-- End of navbar -->
+    </div>
+</div>
 
 <!-- Visual Design title -->
     <section class="col-12 col-md-12 col-lg-12 text-center">
@@ -80,128 +72,141 @@
 
     <!-- Selected work -->
     <div class="container">
-        <div class="container selected-work">selected work
+<!--        <div class="container selected-work">selected work-->
             <div class="row">
-                <div class="col-12 col-sm-6">
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <img src="assets/images/apple-ipad.jpg" class="card-img-top embed-responsive-item" alt="">
+                <div class="col-12 col-sm-12 col-md-8" id="left-side">
+                    <!-- Left Side -->
+                    <section>
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="card shadow p-3 mb-5 bg-white rounded">
+                                    <div class="embed-responsive embed-responsive-4by3">
+                                        <img src="assets/images/apple-ipad.jpg" class="card-img-top embed-responsive-item" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Featured Project</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="card shadow p-3 mb-5 bg-white rounded">
+                                    <div class="embed-responsive embed-responsive-4by3">
+                                        <img src="assets/images/macbook.jpg" class="card-img-top embed-responsive-item" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text">Featured Project</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Featured Project</p>
+                    </section>
+
+                    <section>
+                        <div class="col-md-6">
+                            <div class="card shadow p-3 mb-5 bg-white rounded">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <img src="assets/images/man.jpg" class="card-img-top embed-responsive-item" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Featured Project</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="col-md-6">
+                            <div class="card shadow p-3 mb-5 bg-white rounded">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <img src="assets/images/security.jpg" class="card-img-top embed-responsive-item" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Featured Project</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="col-12 col-sm-6">
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <img src="assets/images/macbook.jpg" class="card-img-top embed-responsive-item" alt="">
+
+                <div class="col-12 col-md-4" id="right-side">
+<!--                    right side content-->
+                    <section>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="card" style="width: 18rem">
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    THE LAST TWEET
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="card mb-3" style="max-width: 540px">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-4">
+                                                                <img src="assets/images/mobile-phone.jpg" class="card-img" alt="phone">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="card mb-3" style="max-width: 540px">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-4">
+                                                                <img src="assets/images/head.jpg" class="card-img" alt="head">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title">NIBBLER AWESOME WEBSITE TESTING</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="card mb-3" style="max-width: 540px">
+                                                        <div class="row no-gutters">
+                                                            <div class="col-md-4">
+                                                                <img src="assets/images/ipad.jpg" class="card-img" alt="ipad">
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="card-body">
+                                                                    <h5 class="card-title">HOW TO GET GOOGLE TO LIKE YOU</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                LAST TWEET
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquid amet
+                                                    asperiores aspernatur earum id, itaque iure nesciunt nisi numquam quo similique sint
+                                                    temporibus unde, voluptate! Porro ratione vero voluptate!
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Featured Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <img src="assets/images/man.jpg" class="card-img-top embed-responsive-item" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Featured Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <div class="embed-responsive embed-responsive-4by3">
-                            <img src="assets/images/security.jpg" class="card-img-top embed-responsive-item" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Featured Project</p>
-                        </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </div>
+<!--        </div>-->
     </div>
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="card" style="width: 18rem;">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        THE LAST TWEET
-                    </li>
-                    <li class="list-group-item">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="assets/images/mobile-phone.jpg" class="card-img" alt="phone">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="assets/images/head.jpg" class="card-img" alt="head">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">NIBBLER AWESOME WEBSITE TESTING</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="assets/images/ipad.jpg" class="card-img" alt="ipad">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">HOW TO GET GOOGLE TO LIKE YOU</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <div class="card" style="width: 18rem;">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            LAST TWEET
-                        </li>
-                        <li class="list-group-item">
-                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquid amet
-                                asperiores aspernatur earum id, itaque iure nesciunt nisi numquam quo similique sint
-                                temporibus unde, voluptate! Porro ratione vero voluptate!
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
