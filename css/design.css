@@ -88,3 +88,28 @@ h5 {
 .picshrink {
     height: 50%;
 }
+
+#social-media-links {
+    display: flex;
+    justify-content: left;
+    height: 100%
+}
+
+#twitter {
+    margin: 0 1em 1em 0;
+    transform: scale(1.25);
+}
+
+#twitter a{
+    text-decoration: none;
+    color: #62b6eb;
+}
+
+#twitter:hover {
+    transition: ease-in;
+    transform: scale(2);
+    transition-duration: .2s;
+}
+.marginleft {
+    margin-left: 9px;
+}
