@@ -1,13 +1,24 @@
 
 .container {
-    background-color: #E6E6E6;
+    background-color: #F0F0F0;
 }
+
+body {
+    background-color: #F0F0F0;
+}
+
 
 .circle {
     height: 105px;
     width: 105px;
     border-radius: 50%;
-    border: 6px solid #F0F0F0;
+    border: 6px solid white;
+}
+
+.card {
+    border: none;
+    background-color: #F0F0F0;
+
 }
 
 .smallcircle {
@@ -45,22 +56,33 @@
 }
 
 .list-group-item {
-    background: #E6E6E6;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
+    background: #F0F0F0;
+    max-height: 67px;
 }
 
 .jumbotron {
-    background: #E6E6E6;
-    /*text-align: center;*/
+    background: #F0F0F0;
 }
 
 #main-jumbotron {
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    font-family: Abel, sans-serif;
+    background-color: #F0F0F0;
+}
+
+#jumbotron-container {
+    justify-content: center;
+    color: #111111;
     text-align: center;
-    font-family: 'Abel', sans-serif;
+}
+
+.logoicon {
+    height: 105px;
+    width: 105px;
 }
 
 #visual\ design {
-    background: #E6E6E6;
+    background: #F0F0F0;
 }
