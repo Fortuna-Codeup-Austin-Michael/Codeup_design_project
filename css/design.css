@@ -5,6 +5,8 @@ h5 {
     margin: 0;
     padding: 0;
 }
+
+/* Jumbotron */
 .jumbotron {
     background: #F0F0F0;
 }
@@ -19,6 +21,8 @@ h5 {
     color: #111111;
     text-align: center;
 }
+/* End Jumbotron */
+
 .card {
     border: none;
     background-color: #F0F0F0;
@@ -34,10 +38,14 @@ h5 {
     border: 5px solid white;
     font-family: 'anton', sans-serif;
 }
+
+/* Codeup Icon */
 .logoicon {
     width: 105px;
     height: 105px;
 }
+/* End Icon */
+
 .li-hor {
     display: flex;
     margin-left: auto;
@@ -50,6 +58,7 @@ h5 {
     width: 18px;
     border-radius: 50%;
 }
+/* Circles */
 #button1 {
     background: #E6563B;
     color: white;
@@ -66,12 +75,17 @@ h5 {
     background: #00ABA9;
     color: white;
 }
+/* End Circles */
+
+/* fonts */
 .anton {
     font-family: 'Anton', sans-serif;
 }
 .abel {
     font-family: 'Abel', sans-serif;
 }
+/* end fonts */
+
 .textleft {
     text-align: left;
 }
@@ -88,11 +102,10 @@ h5 {
 .picshrink {
     height: 50%;
 }
-
+/* Twitter Icon */
 #social-media-links {
     display: flex;
     justify-content: left;
-    height: 100%
 }
 
 #twitter {
@@ -110,6 +123,22 @@ h5 {
     transform: scale(2);
     transition-duration: .2s;
 }
+/* end Twitter Icon */
+
 .marginleft {
     margin-left: 9px;
 }
+
+/* backgound for nav bar */
+.shape {
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    border-radius: 80px;
+    opacity: 60%;
+}
+
+.shape3 {
+    border-radius: 5px;
+}
+/* end background nav bar */
