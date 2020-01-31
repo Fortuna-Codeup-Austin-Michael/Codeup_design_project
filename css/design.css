@@ -1,5 +1,6 @@
 body {
     background: #F0F0F0;
+    border: none;
 }
 h5 {
     margin: 0;
@@ -37,6 +38,7 @@ h5 {
     border-radius: 50%;
     border: 5px solid white;
     font-family: 'anton', sans-serif;
+    color: white;
 }
 
 /* Codeup Icon */
@@ -46,12 +48,16 @@ h5 {
 }
 /* End Icon */
 
-.li-hor {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.li-align {
+    margin: auto;
     list-style: none;
     align-items: center;
+
+}
+
+.li-alignright {
+    list-style: none;
+
 }
 .smallcircle {
     height: 18px;
@@ -61,7 +67,7 @@ h5 {
 /* Circles */
 #button1 {
     background: #E6563B;
-    color: white;
+
 }
 #button2 {
     background: #DEA03D;
@@ -88,6 +94,7 @@ h5 {
 
 .textleft {
     text-align: left;
+    text-justify: auto;
 }
 .textcenter {
     text-align: center;
@@ -109,8 +116,10 @@ h5 {
 }
 
 #twitter {
-    margin: 0 1em 1em 0;
+    margin-right: 1em;
     transform: scale(1.25);
+    color: #55acef;
+
 }
 
 #twitter a{
@@ -125,20 +134,110 @@ h5 {
 }
 /* end Twitter Icon */
 
-.marginleft {
-    margin-left: 9px;
+.margintop {
+    margin-top: auto;
 }
 
 /* backgound for nav bar */
-.shape {
-    height: 10vh;
+/*.shape {*/
+/*    height: 10vh;*/
+/*    width: 100vw;*/
+/*    background-color: white;*/
+/*    border-radius: 80px;*/
+/*    opacity: 60%;*/
+/*}*/
+
+/*.shape3 {*/
+/*    border-radius: 5px;*/
+/*}*/
+/* end background nav bar */
+
+
+/* TESTING */
+
+.jtBG {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    margin-top: 2em;
     width: 100vw;
-    background-color: white;
-    border-radius: 80px;
-    opacity: 60%;
+    height: 55px;
+    justify-content: center;
+    padding: 1.3em;
+
+
+
+    /*height: 5vh;*/
 }
 
-.shape3 {
-    border-radius: 5px;
+.navBG {
+    background: #f0f0f0;
+    padding: 0px;
+    margin: 1em 0 0 0;
+    border: none;
 }
-/* end background nav bar */
+.width {
+    width: 100vw;
+}
+.inline {
+    display: inline;
+}
+a {
+    color: black;
+    font-size: 1em;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+}
+
+/* Circles */
+#button11 {
+    background: #E6563B;
+    color: black;
+}
+#button21 {
+    background: #DEA03D;
+    color: black;
+}
+#button31 {
+    background: #7CB06C;
+    color: black;
+}
+#button41 {
+    background: #00ABA9;
+    color: black;
+}
+.circle1 {
+    font-size: .7em;
+    padding: 0;
+    margin: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: none;
+    font-family: 'anton', sans-serif;
+}
+#moveright {
+    text-align: right;
+}
+/* End Circles */
+
+.nopaddingleft {
+    padding-left: 0;
+}
+.nopaddingright {
+    padding-right: 0;
+}
+
+p.abel {
+    font-size: .9em;
+
+}
+.margincenter {
+    margin: auto;
+}
+
+#xsanchors {
+    padding: 0;
+}
+.

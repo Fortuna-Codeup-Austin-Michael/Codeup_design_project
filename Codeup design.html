@@ -15,45 +15,89 @@
 </head>
 <body>
 
-<div class="jumbotron jumbotron-fluid" id="main-jumbotron">
-    <div class="container" id="jumbotron-container">
-        <div class="shape shape3">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto li-hor">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+<nav class="navbar navBG">
+    <div class="jumbotron jumbotron-fluid jtBG">
+        <div class="container d-md-none">
+            <div class="col-12">
+                <div class="row">
+                    <ul class="navbar li-align">
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="d-block d-md-none">
+                            <img src="assets/images/logo.jpg" class="logoicon" alt="logo">
+                        <li>
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item d-none d-sm-block">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container d-none d-md-block">
+            <ul class="navbar mb-0 li-alignright">
+                <div class="nav-item mr-auto">
+                    <img src="assets/images/logo.jpg" class="logoicon" alt="logo">
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End jumbotron -->
+
+
+    <div class="container d-block d-md-none">
+        <div class="col-12">
+            <div class="row mb-3">
+                <h1 class="margincenter abel">codeup design</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12">
+            <div class="row mb-4">
+                <ul class="navbar li-align" id="xsanchors">
+                    <li class="nav-item d-block d-sm-none">
+                        <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-block d-sm-none">
                         <a class="nav-link" href="#">Work</a>
                     </li>
-                    <li>
-                        <div>
-                            <img src="assets/images/logo.jpg" class="logoicon" alt="logo">
-                        </div>
-                    </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-block d-sm-none">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-block d-sm-none">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
-        </nav>
-        <h1 class="display-4">Codeup Design</h1>
-        <!-- End of navbar -->
         </div>
     </div>
-</div>
+</nav>
 
-<!-- Visual Design title -->
-<section class="col-12 col-md-12 col-lg-12 text-center">
-    <H1 class="anton">VISUAL DESIGN & WEB DEVELOPMENT</H1>
-    <br>
-    <h3 class="anton">FROM PARK CITY, UTAH</h3>
-</section>
+    <!-- Visual Design title -->
+    <section class="col-12 col-md-12 col-lg-12 text-center">
+        <H1 class="anton mb-4">VISUAL DESIGN & WEB DEVELOPMENT</H1>
+        <br>
+        <h3 class="anton mb-5">FROM PARK CITY, UTAH</h3>
+    </section>
 <!-- Circles -->
     <div class="col-12">
         <div class="container">
@@ -87,6 +131,7 @@
     <div>
         <hr>
     </div>
+<!-- Bottom Section -->
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-8">
@@ -102,105 +147,356 @@
                                 <p>SELECTED WORK</p>
                             </div>
                         </div>
+                        <!-- First Card -->
                         <div class="col-12 col-sm-6 col-md-6">
                             <div class="card">
                                 <img src="assets/images/apple-ipad.jpg" class="card-img-top imgborder" alt="laptop">
-                                <div class="card-body">
-                                    <p class="card-text">FEATURED PROJECT</p>
+                                <!-- Start of Text under picture -->
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="container nopaddingright">
+                                                <p class="abel">Featured Project</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Text under picture -->
+                                    <!-- Buttons on bottom of picture -->
+                                    <div class="col-6">
+                                        <div class="row" id="moveright">
+                                            <div class="container nopaddingleft">
+                                                <div class="moveright">
+                                                    <button type="button" class="circle1" id="button11">D</button>
+                                                    <button type="button" class="circle1" id="button21">D</button>
+                                                    <button type="button" class="circle1" id="button31">S</button>
+                                                    <button type="button" class="circle1" id="button41">H</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Buttons on bottom of picture -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6">
                             <div class="card" style="">
                                 <img src="assets/images/macbook.jpg" class="card-img-top imgborder" alt="computers">
-                                <div class="card-body">
-                                    <p class="card-text">FEATURED PROJECT</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="container nopaddingright">
+                                                <p class="abel">Featured Project</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Text under picture -->
+                                    <!-- Buttons on bottom of picture -->
+                                    <div class="col-6">
+                                        <div class="row" id="moveright">
+                                            <div class="container nopaddingleft">
+                                                <div class="moveright">
+                                                    <button type="button" class="circle1" id="button11">D</button>
+                                                    <button type="button" class="circle1" id="button21">D</button>
+                                                    <button type="button" class="circle1" id="button31">S</button>
+                                                    <button type="button" class="circle1" id="button41">H</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6">
                             <div class="card" style="">
                                 <img src="assets/images/man.jpg" class="card-img-top imgborder" alt="face">
-                                <div class="card-body">
-                                    <p class="card-text">FEATURED PROJECT</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="container nopaddingright">
+                                                <p class="abel">Featured Project</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Text under picture -->
+                                    <!-- Buttons on bottom of picture -->
+                                    <div class="col-6">
+                                        <div class="row" id="moveright">
+                                            <div class="container nopaddingleft">
+                                                <div class="moveright">
+                                                    <button type="button" class="circle1" id="button11">D</button>
+                                                    <button type="button" class="circle1" id="button21">D</button>
+                                                    <button type="button" class="circle1" id="button31">S</button>
+                                                    <button type="button" class="circle1" id="button41">H</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6">
                             <div class="card">
-                                <img src="assets/images/security.jpg" class="card-img-top imgborder" alt="securityicon">
-                                <div class="card-body">
-                                    <p class="card-text">FEATURED PROJECT</p>
+                                <img src="assets/images/security.jpg" class="card-img-top imgborder mt-2" alt="securityicon">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="container nopaddingright horcenter">
+                                                <p class="abel">Featured Project</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Text under picture -->
+                                    <!-- Buttons on bottom of picture -->
+                                    <div class="col-6">
+                                        <div class="row" id="moveright">
+                                            <div class="container nopaddingleft">
+                                                <div class="moveright">
+                                                    <button type="button" class="circle1" id="button11">D</button>
+                                                    <button type="button" class="circle1" id="button21">D</button>
+                                                    <button type="button" class="circle1" id="button31">S</button>
+                                                    <button type="button" class="circle1" id="button41">H</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Right Side Content -->
             <div class="col-12 col-md-4">
                 <div class="container">
                     <div class="row">
                         <div class="container">
                             <!-- Center text -->
                             <div class="d-md-none textcenter">
-                                <p>SELECTED WORK</p>
+                                <p>THE LAST</p>
                             </div>
-                            <!-- left text -->
+                            <!--                             left text-->
                             <div class="d-none d-md-block textleft">
-                                <p>SELECTED WORK</p>
+                                <p>THE LAST</p>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-12 d-xs-none">
+                        <div class="col-12 col-md-12">
                             <div class="no-gutters">
                                 <br>
                                 <div class="row">
                                     <div class="col-md-4">
                                         <img src="assets/images/mobile-phone.jpg" class="card-img pictest" alt="phone"></div>
-                                    <div class="col-md-8 anton">
+                                    <div class="col-md-8 anton mb-2">
                                         <h6>HE ADMIN BAR AND ABSOLUTE POSITIONING</h6>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <img src="assets/images/head.jpg" class="card-img pictest" alt="phone">
+                                        <img src="assets/images/head.jpg" class="card-img pictest" alt="head">
                                     </div>
-                                    <div class="col-md-8 anton">
+                                    <div class="col-md-8 anton mb-2">
                                         <h6>NIBBLER AWESOME WEB TESTING</h6>
                                     </div>
                                 </div>
                                 <br>
-                                <div class="row">
+                                <div class="row mb-3">
                                     <div class="col-md-4">
-                                        <img src="assets/images/ipad.jpg" class="card-img pictest" alt="phone">
+                                        <img src="assets/images/ipad.jpg" class="card-img pictest" alt="ipad">
                                     </div>
-                                    <div class="col-md-8 anton">
+                                    <div class="col-md-8 anton mb-2">
                                         <h6>HOW TO GET GOOGLE TO LIKE YOU</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" id="social-media-links">
+                                        <a href="https://twitter.com/?lang=en" target="_blank">
+                                            <i class="fab fa-twitter" id="twitter"></i>
+                                        </a>
+                                        <h6 class="margintop">LAST TWEET</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-5">
+                                        <p class="abel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet architecto consequatur consequuntur doloremque dolorum enim eos iure iusto molestias nesciunt saepe suscipit, voluptas! Consequatur corporis excepturi labore qui reiciendis?</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-12" id="social-media-links">
-                        <a href="https://twitter.com/?lang=en" target="_blank">
-                            <i class="fab fa-twitter" id="twitter"></i>
-                        </a>
-                        <h6 class="marginleft">LAST TWEET</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 ">
-                        <p class="abel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet architecto consequatur consequuntur doloremque dolorum enim eos iure iusto molestias nesciunt saepe suscipit, voluptas! Consequatur corporis excepturi labore qui reiciendis?</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12 col-md-8">-->
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="container">-->
+<!--                            &lt;!&ndash; Center text &ndash;&gt;-->
+<!--                            <div class="d-md-none textcenter">-->
+<!--                                <p>SELECTED WORK</p>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; left text &ndash;&gt;-->
+<!--                            <div class="d-none d-md-block textleft">-->
+<!--                                <p>SELECTED WORK</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-6 col-md-6">-->
+<!--                            <div class="card">-->
+<!--                                <img src="assets/images/apple-ipad.jpg" class="card-img-top imgborder" alt="laptop">-->
+<!--                                <div class="card-body">-->
+<!--                                    <p class="card-text">FEATURED PROJECT</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-6 col-md-6">-->
+<!--                            <div class="card" style="">-->
+<!--                                <img src="assets/images/macbook.jpg" class="card-img-top imgborder" alt="computers">-->
+<!--                                <div class="card-body">-->
+<!--                                    <p class="card-text">FEATURED PROJECT</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-6 col-md-6">-->
+<!--                            <div class="card" style="">-->
+<!--                                <img src="assets/images/man.jpg" class="card-img-top imgborder" alt="face">-->
+<!--                                <div class="card-body">-->
+<!--                                    <p class="card-text">FEATURED PROJECT</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-6 col-md-6">-->
+<!--                            <div class="card">-->
+<!--                                <img src="assets/images/security.jpg" class="card-img-top imgborder" alt="securityicon">-->
+<!--                                <div class="card-body">-->
+<!--                                    <p class="card-text">FEATURED PROJECT</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-12 col-md-4">-->
+<!--                <div class="container">-->
+<!--                    <div class="row">-->
+<!--                        <div class="container">-->
+<!--                            &lt;!&ndash; Center text &ndash;&gt;-->
+<!--                            <div class="d-md-none textcenter">-->
+<!--                                <p>SELECTED WORK</p>-->
+<!--                            </div>-->
+<!--                            &lt;!&ndash; left text &ndash;&gt;-->
+<!--                            <div class="d-none d-md-block textleft">-->
+<!--                                <p>SELECTED WORK</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-6 col-md-12 d-xs-none">-->
+<!--                            <div class="no-gutters">-->
+<!--                                <br>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-4">-->
+<!--                                        <img src="assets/images/mobile-phone.jpg" class="card-img pictest" alt="phone"></div>-->
+<!--                                    <div class="col-md-8 anton">-->
+<!--                                        <h6>HE ADMIN BAR AND ABSOLUTE POSITIONING</h6>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <br>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-4">-->
+<!--                                        <img src="assets/images/head.jpg" class="card-img pictest" alt="phone">-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-8 anton">-->
+<!--                                        <h6>NIBBLER AWESOME WEB TESTING</h6>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <br>-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-4">-->
+<!--                                        <img src="assets/images/ipad.jpg" class="card-img pictest" alt="phone">-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-8 anton">-->
+<!--                                        <h6>HOW TO GET GOOGLE TO LIKE YOU</h6>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <br>-->
+<!--                <br>-->
+<!--                <br>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12" id="social-media-links">-->
+<!--                        <a href="https://twitter.com/?lang=en" target="_blank">-->
+<!--                            <i class="fab fa-twitter" id="twitter"></i>-->
+<!--                        </a>-->
+<!--                        <h6 class="marginleft">LAST TWEET</h6>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-12 ">-->
+<!--                        <p class="abel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet architecto consequatur consequuntur doloremque dolorum enim eos iure iusto molestias nesciunt saepe suscipit, voluptas! Consequatur corporis excepturi labore qui reiciendis?</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+
+<!-- Navbar test -->
+
+
+
+<!--<div class="jumbotron jumbotron-fluid" id="main-jumbotron">-->
+<!--    <div class="container" id="jumbotron-container">-->
+<!--        <div class="shape shape3">-->
+<!--            &lt;!&ndash; Navbar &ndash;&gt;-->
+<!--            <nav class="navbar navbar-expand-lg">-->
+<!--                <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--                    <ul class="navbar-nav mr-auto li-hor">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Work</a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <div>-->
+<!--                                <img src="assets/images/logo.jpg" class="logoicon" alt="logo">-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Blog</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Contact</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
+<!--            <h1 class="display-4">Codeup Design</h1>-->
+<!--            &lt;!&ndash; End of navbar &ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
 
 
 <!-- Optional JavaScript -->
