@@ -138,22 +138,6 @@ h5 {
     margin-top: auto;
 }
 
-/* backgound for nav bar */
-/*.shape {*/
-/*    height: 10vh;*/
-/*    width: 100vw;*/
-/*    background-color: white;*/
-/*    border-radius: 80px;*/
-/*    opacity: 60%;*/
-/*}*/
-
-/*.shape3 {*/
-/*    border-radius: 5px;*/
-/*}*/
-/* end background nav bar */
-
-
-/* TESTING */
 
 .jtBG {
     display: flex;
@@ -165,10 +149,6 @@ h5 {
     height: 55px;
     justify-content: center;
     padding: 1.3em;
-
-
-
-    /*height: 5vh;*/
 }
 
 .navBG {
@@ -240,4 +220,3 @@ p.abel {
 #xsanchors {
     padding: 0;
 }
-.
